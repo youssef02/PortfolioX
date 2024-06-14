@@ -1,0 +1,158 @@
+{
+    "EXPERIENCE": [
+        {
+            "date": "May 23 - Sep 23",
+            "label": "Freelance Experience",
+            "title": "SuCooter, Istanbul - Turkiye",
+            "description": "R&D, Networking, teleoperated drive technology (5G), Backend (MongoDB + FB Serverless ), Mobility App Development (Flutter, Retool. Firebase)."
+        },
+        {
+            "date": "Dec 22 - Apr 23",
+            "label": "Freelance Experience",
+            "title": "Akıllı Mantar, Istanbul - Turkiye",
+            "description": "AKA Smart Mushrooms, Agriculture IoT devices + IoT Core (GCP). Used Technologies: MicroPython, ESPNow, IoT Core, MQTT, sensors, Relays, JWT."
+        },
+        {
+            "date": "Sep 21 - Apr 22",
+            "label": "Freelance Experience",
+            "title": "Blockchain Development - Process Compass - Denmark",
+            "description": "Used Technologies: Linux, Hyperledger Fabric, Fabric-operations-console, CouchDB, Typescript, IoT devices."
+        },
+        {
+            "date": "Mar 19 – Dec 19",
+            "label": "Software Engineer",
+            "title": "Company FIGENOR EXPERTISE, Rabat, Morocco",
+            "description": [
+                "Worked as Intern, automation, and learning about accounting.",
+                "Migration from Odoo 7 to Odoo 11. Technologies used: Linux, Odoo 11 (Python), PostgreSQL. Automating and solving accounting problems."
+            ]
+        },
+        {
+            "date": "Sep 18 – Nov 18",
+            "label": "Software Engineer",
+            "title": "Company MegaDev, Salé, Morocco",
+            "description": "Refill automation system. Technologies used: Arduino, GSM module, MS SQL, and Android."
+        }
+    ],
+    "EDUCATION": [
+        {
+            "date": "2021 - 2023",
+            "label": "Computer Engineering Master",
+            "title": "Bahcesehir University (BAU), Istanbul, Turkiye",
+            "description": "Specialization: Computer Vision, Machine Learning, AI. Thesis: Digital Identities on the Blockchain."
+        },
+        {
+            "date": "Sep 20 - June 21",
+            "label": "Project Management (Master 1st Year)",
+            "title": "MIAGE Casablanca, Morocco",
+            "description": "FEDE European Master in Project Management. Specialization: IT Project Management."
+        },
+        {
+            "date": "2019 - 2020",
+            "label": "Bachelor Degree of Web and Mobile Application Developers",
+            "title": "IBN TOFAIL University, Kénitra, Morocco",
+            "description": ""
+        },
+        {
+            "date": "2016 - 2019",
+            "label": "Diploma of Higher Education of Software Development Technician",
+            "title": "Specialized Institute of Applied Technology Lazaret, Oujda, Morocco",
+            "description": ""
+        },
+        {
+            "date": "Graduated  2016",
+            "label": "High-School Diploma",
+            "title": "Zineb Ennafzaouia School, Oujda - Morocco",
+            "description": ""
+        }
+    ],
+    "PROJECTS": [
+        {
+            "date": "2023 Master's",
+            "label": "Master Thesis",
+            "title": "Bahcesehir University, Istanbul, Turkiye",
+            "description": "Digital Identities on the Blockchain. Using Hyperledger Aries + Indy, built a network, built schema, familiar with different agents, including static agents."
+
+        },
+        {
+            "date": "2020  Bachelor",
+            "label": "Bachelor Final Project Assignment",
+            "title": "IBN TOFAIL University, Kenitra, Morocco",
+            "description": "Conception and Realization of a Website that manages commercial ads using Django as Backend, with static React for the Frontend. App similar to Facebook Marketplace."
+        },
+        {
+            "date": "2019 FPA",
+            "label": "Final Project Assignment",
+            "title": "Specialized Institute Of Applied Technology Lazaret Oujda, Morocco",
+            "description": "System for Library management using .Net C# and Microsoft SQL server. System to manage Library with a Database, MSSQL, features like scanning with Barcode, using renting system to keep track of books."
+        },
+        {
+            "date": "March, 2019",
+            "label": "Training Management Software",
+            "title": "Company FIGENOR EXPERTISE Rabat, Morocco",
+            "description": "Using .Net C# and MS SQL. Created Software for automation, moving to a more digital version."
+        },
+        {
+            "date": "March, 2018",
+            "label": "POS Locating System",
+            "title": "Company MegaDev, Salé, Morocco",
+            "description": "Using Google Maps API, Android, MS SQL. Securing a system to track POS locations."
+        }
+    ],
+    "SKILLS": [
+        {
+            "description": "C/C++  Microcontrollers, CLI tools, Embedded Systems, RE "
+        },
+        {
+            "description": "C# (.Net, ASP.NET)"
+        },
+        {
+            "description": "Java/Kotlin (J2EE, Spring, Android, JavaFX)"
+        },
+        {
+            "description": "Python (Odoo, Django, OpenCV) / (Web scrapping, Data mining, Automation)"
+        },
+        {
+            "description": "Web 2.0 (HTML + JavaScript + CSS) / (PHP + NODE.JS) / React/ Angular"
+        },
+        {
+            "description": "SQL & NoSQL (MS SQL, MYSQL, MongoDB, Firebase)"
+        },
+        {
+            "description": "Go (mostly for HL fabric projects)"
+        },
+        {
+            "description": "Dart (CrossPlatform App Development)"
+        },
+        {
+            "description": "Linux, Windows, Macos, VM (Docker, Qemu, VirtualBox/ VMware)"
+        }
+    ],
+    "FEATURES": [
+        {
+            "date": "2019 till now",
+            "label": "Self-Taught Skills",
+            "title": "Python, Odoo ERP, Hyperledger Fabric, Hyperledger Aries + Indy",
+            "description": [
+                "Python (5+ years): Data mining, web development, automation, web scraping, Django.",
+                "Odoo ERP (4+ years): Module creation, system migration, server maintenance (Discord).",
+                "Hyperledger Fabric : Community server, middleware for Express backend, smart contracts, network setup, Hyperledger medal.",
+                "Hyperledger Aries + Indy (Thesis): Network and schema building, agent familiarity."
+                ]
+        }
+    ],
+    "CONTACT": [
+        {
+            "phone": "(+212) 616 604081",
+            "email": "arrassen.youssef@gmail.com",
+            "important_links": {
+                "Odoo Community": "https://discord.gg/kpa53B4",
+                "Hyperledger Community": "https://discord.gg/2Baatkq6RK",
+                "Xing": "https://www.xing.com/profile/Youssef_Arrassen/cv",
+                "LinkedIn": "https://www.linkedin.com/in/youssef-arrassen-64488122b/",
+                "GitHub": "https://github.com/youssef02",
+                "Portfolio": "https://youssef02.github.io/My-CV/"
+            }
+        }
+    ]
+}
