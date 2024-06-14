@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run static",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build  && gh-pages -d out -t true",
-    "export": "next export"
+    "deploy": "gh-pages -d out -t true",
+    "static": "next build && touch ./out/.nojekyll && echo 'www.youssef02.dev' > ./out/CNAME"
+
+    
 
   },
   "dependencies": {
