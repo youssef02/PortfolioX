@@ -59,7 +59,10 @@ jobs:
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: List folders of the current directory
-        run: ls -a
+        run: ls -a 
+      - name: Print working directory
+        run: pwd
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
