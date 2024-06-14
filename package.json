@@ -4,11 +4,9 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "npm run static",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "gh-pages -d out -t true",
-    "static": "next build  && echo 'www.youssef02.dev' > ./out/CNAME"
+    "lint": "next lint"
 
     
 
