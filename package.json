@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "next lint",
     "deploy": "gh-pages -d out -t true",
-    "static": "next build && touch ./out/.nojekyll && echo 'www.youssef02.dev' > ./out/CNAME"
+    "static": "next build  && echo 'www.youssef02.dev' > ./out/CNAME"
 
     
 
