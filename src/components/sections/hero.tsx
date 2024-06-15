@@ -51,7 +51,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
 };
 
 function Hero() {
-    const fileUrl = "PortfolioX/scene.gltf";
+    const fileUrl = "scene.gltf";
     const mesh = useRef<Mesh>(null!);
     const gltf = useLoader(GLTFLoader, fileUrl);
     const mixer = new AnimationMixer(gltf.scene);
