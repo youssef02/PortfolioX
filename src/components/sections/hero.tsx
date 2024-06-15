@@ -35,7 +35,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
                         <FaGithub size={24} className="mr-2" />
                         GitHub
                     </a>
-                    <a href="/youssef_arrassen_cv.pdf" target="_blank" rel="" className="flex items-center border border-gray-300 bg-white text-black p-2 rounded-md shadow-md hover:bg-gray-100">
+                    <a href="PortfolioX/youssef_arrassen_cv.pdf" target="_blank" rel="" className="flex items-center border border-gray-300 bg-white text-black p-2 rounded-md shadow-md hover:bg-gray-100">
                         <FaDownload size={24} className="mr-2" />
                         Download
                         CV
@@ -51,7 +51,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
 };
 
 function Hero() {
-    const fileUrl = "/scene.gltf";
+    const fileUrl = "PortfolioX/scene.gltf";
     const mesh = useRef<Mesh>(null!);
     const gltf = useLoader(GLTFLoader, fileUrl);
     const mixer = new AnimationMixer(gltf.scene);
