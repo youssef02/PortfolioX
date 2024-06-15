@@ -18,7 +18,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
 
 
     return (
-        <section id="Hero" className="bg-slate-500">
+        <section id="Hero" className="">
             <div className='flex justify-center items-center w-screen h-screen top-16 '>
 
                 <Canvas className='w-full h-75'>
