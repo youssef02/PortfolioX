@@ -2,8 +2,7 @@
 const nextConfig = {
     transpilePackages: ['three'],
     output: "export",
-    basePath: "PorfolioX/",
-    assetPrefix: "PorfolioX/",
+    basePath: "/PorfolioX",
 
 
     images: {
