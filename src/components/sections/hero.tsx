@@ -49,7 +49,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
         </section>
     );
 };
-
+ 
 function Hero() {
     const fileUrl = "scene.gltf";
     const mesh = useRef<Mesh>(null!);
