@@ -21,7 +21,7 @@ function Home() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const data = await fetchFromPublic('/PortfolioX/data.json');
+        const data = await fetchFromPublic('PortfolioX/data.json');
         setCvData(data);
 
       } catch (error: any) {
