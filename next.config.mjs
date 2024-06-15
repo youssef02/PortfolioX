@@ -2,12 +2,14 @@
 const nextConfig = {
     transpilePackages: ['three'],
     output: "export",
-    basePath: "/PorfolioX",
+    basePath: "/PortfolioX",
+    
 
 
     images: {
         unoptimized: true,
     }
+    
 };
 
 export default nextConfig;
