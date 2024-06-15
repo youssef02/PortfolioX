@@ -21,7 +21,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
         <section id="Hero" className="">
             <div className='flex justify-center items-center w-screen h-screen top-16 '>
 
-                <Canvas className='w-full h-75 '>
+                <Canvas className='w-full h-75 bg-black-300 '>
                     <ambientLight intensity={5} />
                     <Hero />
                     
@@ -35,7 +35,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
                         <FaGithub size={24} className="mr-2" />
                         GitHub
                     </a>
-                    <a href="PortfolioX/youssef_arrassen_cv.pdf" target="_blank" rel="" className="flex items-center border border-gray-300 bg-white text-black p-2 rounded-md shadow-md hover:bg-gray-100">
+                    <a href="youssef_arrassen_cv.pdf" target="_blank" rel="" className="flex items-center border border-gray-300 bg-white text-black p-2 rounded-md shadow-md hover:bg-gray-100">
                         <FaDownload size={24} className="mr-2" />
                         Download
                         CV
