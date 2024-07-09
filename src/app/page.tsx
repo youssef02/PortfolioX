@@ -16,6 +16,8 @@ import FeatureSection from "@/components/sections/features";
 function Home() {
 
   const [cvData, setCvData] = useState<CV.CVData | null>(null);
+  //load 3D model
+  const [scene, setscene] = useState<any |null>(null);
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
