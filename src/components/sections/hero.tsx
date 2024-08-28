@@ -55,9 +55,9 @@ const HeroSection: React.FC<Props> = ({Data, Scene}) => {
 };
  
 const Hero : React.FC<HeroProps> = ({Scene }) => {
-    const fileUrl = "scene.gltf";
+    
     const mesh = useRef<Mesh>(null!);
-    const gltf = useLoader(GLTFLoader, fileUrl);
+    const gltf = Scene;
     const mixer = new AnimationMixer(gltf.scene);
 
     useEffect(() => {
