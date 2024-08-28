@@ -11,6 +11,9 @@ import HeroSection from "@/components/sections/hero";
 import Footer from "@/components/sections/footer";
 import ContactForm from "@/components/sections/contact";
 import FeatureSection from "@/components/sections/features";
+import { useLoader } from "@react-three/fiber";
+import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader.js";
+
 
 
 function Home() {
@@ -19,6 +22,9 @@ function Home() {
   //load 3D model
   const [scene, setscene] = useState<any |null>(null);
   const [error, setError] = useState<string | null>(null);
+
+  const fileUrl = "scene.gltf";
+  setscene(useLoader(GLTFLoader, fileUrl));
 
   useEffect(() => {
     const fetchData = async () => {
@@ -45,6 +51,14 @@ function Home() {
       <div className="border-t-4 border-gray-200 rounded-full animate-spin h-12 w-12 border-t-[#3498db]"></div>
     </div>);
   }
+  if (!scene)
+  {
+    return (<div className="flex flex-col items-center justify-center min-h-screen bg-gray-100 py-20">
+      <h1 className="text-3xl font-bold text-gray-800 mb-6">Loading...</h1>
+      <p className="text-lg text-gray-600 mb-10 text-center">Please wait while we prepare the 3D scene.</p>
+      <div className="border-t-4 border-gray-200 rounded-full animate-spin h-12 w-12 border-t-[#3498db]"></div>
+    </div>);
+  }
 
 
 
@@ -54,7 +68,7 @@ function Home() {
       <div className="container mx-auto mt-10">
         <section id="Hero" className="my-10">
 
-          <HeroSection Data={cvData.CONTACT[0]} />
+          <HeroSection Data={cvData.CONTACT[0]} Scene={scene} />
         </section>
 
         <section id="Experience" className="my-10">

@@ -11,9 +11,13 @@ import { Text } from '@react-three/drei'
 
 interface Props {
     Data : Contact
+    Scene : any
+}
+interface HeroProps {
+    Scene: any
 }
 
-const HeroSection: React.FC<Props> = ({Data}) => {
+const HeroSection: React.FC<Props> = ({Data, Scene}) => {
 
 
 
@@ -23,7 +27,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
 
                 <Canvas className='w-full h-75'>
                     <ambientLight intensity={5} />
-                    <Hero />
+                    <Hero Scene={Scene}/>
                     
                 </Canvas>
                 <div className="absolute left-0 bottom-0  md:transform md:-translate-y-1/2 md:left-4 p-4 flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
@@ -50,7 +54,7 @@ const HeroSection: React.FC<Props> = ({Data}) => {
     );
 };
  
-function Hero() {
+const Hero : React.FC<HeroProps> = ({Scene }) => {
     const fileUrl = "scene.gltf";
     const mesh = useRef<Mesh>(null!);
     const gltf = useLoader(GLTFLoader, fileUrl);
