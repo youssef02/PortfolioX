@@ -1,11 +1,6 @@
 {
     "EXPERIENCE": [
-        {
-            "date": "May 23 - Sep 23",
-            "label": "Intern",
-            "title": "SuCooter, Istanbul - Turkiye",
-            "description": "R&D, Networking, teleoperated drive technology (5G), Backend (MongoDB + FB Serverless ), Mobility App Development (Flutter, Retool. Firebase)."
-        },
+       
         {
             "date": "Dec 22 - Apr 23",
             "label": "Intern ",
