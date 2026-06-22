@@ -1,6 +1,11 @@
 {
     "EXPERIENCE": [
-       
+       {
+            "date": "Mars 2025- Present ",
+            "label": "FreeLance Experience ",
+            "title": "Deutsche Sach-Capital, Berlin Deutschland",
+            "description": "PHP to CGI C application, Postgres, IPsec VPN Setup, Dovecot/Postfix setup, Low Level programming,  Debian server setup, server security (Suricata, Fail2Ban)"
+        },
         {
             "date": "Dec 22 - Apr 23",
             "label": "Intern ",
